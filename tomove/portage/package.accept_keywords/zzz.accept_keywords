@@ -1,0 +1,31 @@
+net-vpn/mullvad-netns ~amd64 
+# required by librewolf (argument)
+=www-client/librewolf-112.0.2_p1 ~amd64
+# required by www-client/librewolf-112.0.2_p1::librewolf
+# required by librewolf (argument)
+=dev-libs/nss-3.89 ~amd64
+=x11-libs/libpciaccess-0.17 ~amd64
+
+# required by games-action/prismlauncher (argument)
+=games-action/prismlauncher-6.3 ~amd64
+# required by xtux (argument)
+=games-arcade/xtux-20030306-r1 ~amd64
+# required by xfce-base/xfce4-panel-4.18.3::gentoo
+# required by xfce-base/thunar-4.18.4::gentoo[trash-panel-plugin]
+# required by xfce-base/thunar-volman-4.18.0::gentoo
+# required by xfce-base/xfce4-meta-4.18::gentoo
+# required by @selected
+# required by @world (argument)
+=x11-libs/gtk+-3.24.38 ~amd64
+=app-vim/haskellmode-20101118-r1 ~amd64
+
+# required by net-im/zoom (argument)
+=net-im/zoom-5.15.2.4260 ~amd64
+# required by games-action/minetest-5.7.0-r2::gentoo[server]
+# required by minetest (argument)
+=dev-games/irrlicht-mt-headers-1.9.0.10 ~amd64
+# required by games-action/minetest-5.7.0-r2::gentoo[client]
+# required by minetest (argument)
+=dev-games/irrlicht-mt-1.9.0.10-r1 ~amd64
+# required by minetest (argument)
+=games-action/minetest-5.7.0-r2 ~amd64

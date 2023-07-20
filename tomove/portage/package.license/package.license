@@ -1,0 +1,9 @@
+# Accepting the license for linux-firmware
+sys-kernel/linux-firmware linux-fw-redistributable
+
+# Accepting any license that permits redistribution
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+# required by spotify (argument)
+>=media-sound/spotify-1.2.13 Spotify
+# required by net-im/zoom (argument)
+>=net-im/zoom-5.15.2.4260 all-rights-reserved

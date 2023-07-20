@@ -1,0 +1,3 @@
+#!/bin/sh
+DIR=${HOME}/.dwm
+exec /usr/bin/dwm

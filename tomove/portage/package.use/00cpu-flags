@@ -1,0 +1,39 @@
+*/* CPU_FLAGS_X86: aes avx avx2 avx512f avx512dq avx512cd avx512bw avx512vl avx512vbmi f16c fma3 mmx mmxext pclmul popcnt rdrand sha sse sse2 sse3 sse4_1 sse4_2 ssse3
+# required by xfce-base/xfce4-panel-4.18.3::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.18.4::gentoo[trash-panel-plugin]
+# required by xfce-base/thunar-volman-4.18.0::gentoo
+# required by xfce-base/xfce4-meta-4.18::gentoo
+# required by xfce-base/xfce4-meta (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by www-client/firefox-102.10.0::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.12.0-r1 postproc
+# required by media-video/vlc-3.0.18::gentoo
+# required by media-sound/elisa-22.12.3::gentoo[vlc]
+# required by elisa (argument)
+>=sys-libs/zlib-1.2.13-r1 minizip
+# required by dev-python/PyQtWebEngine-5.15.6::gentoo
+# required by www-client/qutebrowser-2.5.4::gentoo[python_single_target_python3_10]
+# required by qutebrowser (argument)
+>=dev-python/PyQt5-5.15.9 declarative sql webchannel
+# required by dev-python/PyQtWebEngine-5.15.6::gentoo
+# required by www-client/qutebrowser-2.5.4::gentoo[python_single_target_python3_10]
+# required by qutebrowser (argument)
+>=dev-qt/qtwebengine-5.15.9_p20230421 widgets
+# required by dev-qt/qtwebengine-5.15.9_p20230421::gentoo
+# required by dev-python/PyQtWebEngine-5.15.6::gentoo
+# required by www-client/qutebrowser-2.5.4::gentoo[python_single_target_python3_10]
+# required by qutebrowser (argument)
+>=dev-qt/qtwebchannel-5.15.9 qml
+# required by dev-python/PyQt5-5.15.9::gentoo[multimedia]
+# required by dev-python/PyQtWebEngine-5.15.6::gentoo
+# required by www-client/qutebrowser-2.5.4::gentoo[python_single_target_python3_10]
+# required by qutebrowser (argument)
+>=dev-qt/qtmultimedia-5.15.9 widgets
+# required by app-misc/golly-4.2::gentoo
+# required by golly (argument)
+>=x11-libs/wxGTK-3.2.2.1-r2 curl
+# required by x11-libs/wxGTK-3.2.2.1-r2::gentoo
+# required by app-misc/golly-4.2::gentoo
+# required by golly (argument)
+>=dev-libs/libpcre2-10.42-r1 pcre32

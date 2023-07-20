@@ -1,0 +1,5 @@
+net-im/zoom bundled-libjpeg-turbo
+net-im/zoom bundled-qt
+# required by www-client/chromium-114.0.5735.198::gentoo
+# required by chromium (argument)
+>=net-libs/nodejs-20.2.0 inspector

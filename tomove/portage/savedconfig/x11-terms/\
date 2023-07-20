@@ -1,0 +1,38 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v172)
+"   /etc/portage/savedconfig/x11-terms/st
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+./
+.git/
+arg.h
+boxdraw_data.h
+config.h
+hb.h
+st.h
+win.h
+boxdraw.c
+hb.c
+st.c
+x.c
+st*
+st-copyout*
+st-urlhandler*
+.gitignore
+FUNDING.yml
+LICENSE
+Makefile
+PKGBUILD
+README.md
+Xdefaults
+config.mk
+st-scrollback-20210507-4536f46.diff
+st.1
+boxdraw.o
+hb.o
+st.o
+x.o
+st.info
